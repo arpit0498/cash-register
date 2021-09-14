@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+    <title>Cash Register</title>
 </head>
 <body>
-    <h1>CAsh Register app</h1>
+        <div class="container">
+            <h1 class="heading">Cash register manager</h1>
+            <p class="description">
+                Enter the bill ammoubt and cash given by customer and know minimum number of notes to return
+            </p>
+            <label for="bill-amount">Bill ammount</label>
+            <input id="bill-amount" type="text "/>
+            <label for="cash-given"></label>
+            <input id="cash-give"  type="text" />
+            <table class="change-table">
+                <caption>return change</caption>
+                <tr>
+                    <th>number of notes</th>
+                 </tr>
+                <td></td>
+                <tr>
+                    <th>notes</th>
+                    <td>2000</td>
+                    <td>500 </td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
 </body>
+<script src="./index,js"></script>
 </html>
